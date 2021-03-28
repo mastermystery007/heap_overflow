@@ -27,9 +27,9 @@ int main(int argc, char **argv)
   struct data *d;
   struct fp *f;
 
-  d = (data*)malloc(sizeof(struct data));
-  f = (fp*)malloc(sizeof(struct fp));
-  f->fp = (int*)nowinner;
+  d = malloc(sizeof(struct data));
+  f = malloc(sizeof(struct fp));
+  f->fp = nowinner;
 
   printf("data is at %p, fp is at %p\n", d, f);
 
